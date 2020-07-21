@@ -3,13 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Orbit Wars</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Play|VT323" rel="stylesheet"> 
+    <title>Orbit Wars</title>
     <script src="Build/UnityLoader.js"></script>
     <script>
       UnityLoader.instantiate("unityContainer", "Build/OrbitWars_16(Web).json");
     </script>
   </head>
   <body>
-    <div id="unityContainer" style="width: 1280px; height: 720px; margin: auto"></div>
+    <h1>Orbit Wars</h1>
+    <div id="base">
+      <div id="unityContainer"></div>
+    </div>
+    <h4>Gather planets and destroy the enemies before time is up!</h4>
+    <hr>
+    <p>Directions: </p>
+    <ul>
+      <li>WASD/Arrow Keys = Move Ship</li>
+      <li>Left Mouse Button = Shoot</li>
+      <li>Q/E = Barrel Roll</li>
+      <li>Spacebar = Boost</li>
+      <li>P = Pause</li>
+    </ul>
   </body>
 </html>

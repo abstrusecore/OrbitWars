@@ -1,0 +1,18 @@
+html {
+    background-color: black;
+    font-family: 'Play';
+    color: white;
+}
+h1,h4 {
+    text-align: center;
+}
+#base {
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+}
+#unityContainer {
+    width: 960px;
+    height: 540px;
+    margin: auto;
+}
