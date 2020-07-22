@@ -3,6 +3,12 @@ html {
     font-family: 'Play';
     color: white;
 }
+header {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+}
 h1,h4 {
     text-align: center;
 }
